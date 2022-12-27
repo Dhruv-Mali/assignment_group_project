@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color:#F1F6F9; */
+    background-color: gray;
+    font-family: Ubuntu;
+
+}
+
+.heading {
+    font-size: 2em;
+    color: #1b1b1b;
+
+}
+
+.heading-content {
+    font-size: 2em;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: red;
+    border-bottom: 2px solid #1b1b1b;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 10vh;
+    height: 80vh;
+    /* box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.432) ; */
+
+    /* border-radius: 10px; */
+
+}
+
+.sendmassage {
+
+    background-image: linear-gradient(to right top, #2556a1, #4b59bf, #7c55d6, #b246e3, #eb12e4);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+
+}
+
+.contectus {
+    background-color: #FFE162;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+    width: 50%;
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+
+    color: #1b1b1b;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+.input {
+    display: block;
+
+    margin: 30px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #1b1b1b;
+    background: none;
+    color: #1b1b1b;
+
+
+    padding: 10px 0px;
+    outline: none;
+
+
+
+}
+
+::placeholder {
+    color: #1b1b1b;
+
+}
+
+.msgheading {
+    display: inline;
+    /* margin-top: 10px; */
+    color: #1b1b1b;
+    font-size: 30px
+}
+
+.btn {
+    width: 40%;
+    background-color: #FFFDA2;
+    border-radius: 10px;
+    color: #1b1b1b;
+    border: 2px solid #1b1b1b;
+    transition: width 800ms;
+    font-weight: 600;
+
+
+
+
+}
+
+.btn:hover {
+    width: 50%;
+    outline: none;
+    background-color: rgba(29, 168, 29, 0.692);
+}
+
+.box {
+    width: 100%;
+
+    display: flex;
+    margin: 20px 0px 0px 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 20px;
+
+
+}
+
+.box img {
+    margin-right: 50px;
+
+
+}
+
+.box1 {
+    width: 100%;
+
+    /* background-color: blue; */
+
+}
+
+.success-msg {
+    display: none;
+
+}
+
+.success-msgg {
+    height: 100%;
+    background-color: green;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+
+
+@media only screen and (max-width:1200px) {
+
+    .main {
+
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 20px;
+        height: 100%;
+        overflow: hidden;
+        box-shadow: none;
+
+
+    }
+
+    .sendmassage {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+
+    }
+
+    .contectus {
+        height: 100%;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .msgheading {
+        margin-top: 20px;
+    }
+
+    .heading-content {
+        margin-top: 20px;
+
+    }
+
+    .box1 {
+        margin-bottom: 50px;
+    }
+}   
