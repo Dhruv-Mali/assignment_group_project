@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.main-img{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+}
+
+.bgi{
+    height: auto;
+    width: 100vw;
+}
+.svg{
+    height: 40px;
+    margin-left: 50px;
+}
+.nav{
+    padding: 0rem 6rem;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 80px;
+    cursor: pointer;
+}
+.dhruv{
+    color:aliceblue;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+hr{
+    color: aliceblue;
+}
+.maincap{
+    margin-top: 200px;
+    margin-left: 160px;
+    font-size:30px;
+    color: aliceblue;
+}
+.cap{
+    margin-top: 45px;
+    font-size: large;
+    font-size: 14px;
+}
+.butoon{
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6663e9;
+}
+.logos{
+    
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin:380px 30px 0 30px;
+}
+.logoname{
+    height: 30px;
+    margin-top: 40px;
+
+}
+/*OUR BEST ESTATE,ARE MODERN*/
+.cap2{
+    background-color: #f6f8fa;
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cap3{
+    font-size: 50px;
+    padding: 1% 590px;
+}
+/* <!-- Mixtownia --> */
+.photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.graid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;  
+    justify-content: center;  
+    gap: 50px;
+    margin-top: 50px;
+    background-color: #f6f8fa;
+}
+.price{
+    color: #8683ed;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: large;
+    width: 100px;
+    gap: 5px;
+}
+
+.box{
+    background-color: #ffff;
+    border-radius:10px;
+    position: relative;
+    margin: -40px 4px 0px 4px;
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;    
+
+}
+.buynow{
+    height: 35px;
+    width: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #6663e9;
+    margin-left: 5rem;
+}
+.Mirtawan{
+    margin-top: 20px;
+}
+.Wartawan{
+    margin-top: 45px;
+}
+.Wartawan2{
+
+}
+.Mirtawan2{
+    margin-top: 20px;
+}
+.Mixtownia{
+    margin-top: 45px;
+}
+.Mirtawan3{
+    margin-top: 20px;
+}
+.Wartawan3{
+    margin-top: 45px;
+}
+/* Modern,Trendy,Affordable */
+.modern{
+    background-color:#f6f8fa;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    
+}
+.frame1{
+    margin-top: 80px;
+    height: 450px;
+    margin-left: -35px;
+}
+.image1{
+    height: 350px;
+    width: 402px;
+    margin-left: -449px;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 75px;
+}
+.captionimg{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+    gap: 10px;
+}
+.moderncap{
+    font-size:60px;
+    height: 150px;
+    margin-right: 50px;
+}
+.par{
+    margin-bottom: 25px;
+}
+.bigbutoon{
+    margin-right: 270px;    
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #6663e9;
+    height: 40px;
+    width: 180px;
+}
+.modern2{
+     background-color:#f6f8fa;
+     /* display: flex; */
+     margin-top: 100px;
+     overflow-y: hidden;
+}
+.image2{
+    height: 350px;
+    width: 405px;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 1065px;
+    margin-top: -460px;
+}
+.frame2{
+    height: 450px;
+    margin-left: 1020px;
+}
+.captionimg2{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+    gap: 10px;
+    width: 1000px;
+    margin-top: -300px;
+}
+.moderncap2{
+    font-size:60px;
+    height: 150px;
+    margin-right: 50px;
+    /* margin-top: -50px;    */
+}
+.par2{
+    margin-left: -53px;
+}
+.colorbox{
+    margin-top: 80px;
+    border: solid 3px #6663e9;
+    background-color: #6663e9;
+    color: #f6f8fa;
+    height: 400px;
+}
+.boxcap{
+    font-size: 50px;
+    margin-left: 470px;
+    margin-top: 70px;
+    line-height: 60px;
+    gap: 20px;
+}
+.boxcap2{
+    margin-top: 30px;
+    margin-left: 520px;
+}
+.from{
+    margin-top: 50px;
+    margin-left: 480px;
+}
+.email{
+    border-radius: 50px;
+    border: none;
+    width: 350px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #5654d1;
+}
+.subscribe{
+    height: 45px;
+    width: 130px;
+    margin-left: 50px;
+    border-radius: 50px;
+    color: #6663e9;
+    font-weight: 700;
+    border: none;
+}
+.form2{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* footer */
+.footer1{
+    margin-top: 100px;
+    /* background-color: rgb(167, 77, 77); */
+    width: 500px;
+    margin-left: 80px;
+}
+.social{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.p{
+    margin-top: 30px;
+}
+.footer2{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 900px;
+    margin-right: 120px;
+    width: 500px;
+    background-color: rgb(242, 54, 54);
+}
+.f1{
+    margin-right: 100px;
+    gap: 20px;
+}
+.f2{
+    margin-right: 100px;
+}
