@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: PINK;
+    font-family: 'Montserrat';
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.main-heading{
+    
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.img-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 500px;
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5DA3FA;
+    border: 5px solid #1b1b1b;
+    /* border-radius:20px; */
+}
+.pricing-heading{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(255, 166, 0, 0.384);
+    /* border-radius:20px; */
+
+    justify-content: center;
+}
+.pricing-heading p {
+    color: #1b1b1b;
+    font-size:30px;
+    font-weight:bold;
+}
+.pricing-contect{
+    margin: 20px 0px;
+    font-size:20px;    
+    font-weight:bold;
+}
+.pricing-btn{
+    color: #1b1b1b;
+    font-weight:bold;
+    font-size:30px;
+
+}
+.pricing-btn a{
+    text-decoration: none;
+    color:green;
+    font-size: 20px;
+    font-weight:bold;
+}
+.pricing-btn button{
+    width: 100%;
+    height:30px;
+    /* background-color: orange; */
+    color: #1b1b1b;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius:5px;  
+
+}
+ button :hover{
+    color: blue;
+    font-size: 22px;
+}
+.b2h{
+    background-color:gold;
+    color: white;
+}
+.b3h{
+   background-color: palegoldenrod;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        /* background-color: #fff; */
+    }
+    .main-box{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-heading{
+        font-size: 25px;
+    }
+    .img-container{
+        display: none;
+    }
+}
